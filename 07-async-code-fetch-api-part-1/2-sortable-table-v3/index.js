@@ -67,9 +67,9 @@ export default class SortableTablev extends SortableTableV0 {
 
     this.clearCellOrder();
     if (this.isSortLocally) {
-      this.sortOnClient(fieldName, fieldOrder)
+      this.sortOnClient(fieldName, fieldOrder);
     } else {
-      this.sortOnServer(fieldName, fieldOrder)
+      this.sortOnServer(fieldName, fieldOrder);
     }
   };
 
